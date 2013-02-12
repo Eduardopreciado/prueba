@@ -38,3 +38,49 @@ int main (){
 	printf("3.-Salir \n\n");
 	
 }
+
+
+
+
+//cambio de programa
+
+#include <stdio.h>
+#include <conio.h>
+
+int main (){
+	
+	struct alumno{
+	    char nom [50];
+		int cod;
+	    char correo [100];
+	    int edad;
+	    char sexo;
+	    char carrera[50];
+	
+	};
+	struct alumno a1,a2;
+	
+	printf("ingresa el nombre del alumno\n");
+	scanf("%s",&a1.nom);
+	printf("ingresa el codigo del alumno \n");
+	scanf("%d",&a1.cod);
+	printf("ingresa el correo del alumno \n");
+	scanf("%s",&a1.correo);
+	printf("ingrea la edad del alumno \n");
+	scanf("%d",&a1.edad);
+	printf("ingresa el sexo del alumno \n");
+	scanf("%s",&a1.sexo);
+	printf("ingresa la carrera del alumno \n");
+	scanf("%s",&a1.carrera);
+	
+	printf("el nombre ingresado es : %s",a1.nom);
+	printf("el codigo del alumno es : %d\n",a1.cod);
+	printf("el correo del alumno es : %s\n",a1.correo);
+	printf("la edad del alumno es : %d\n",a1.edad);
+	printf("el sexo del alumno es : %c\n",a1.sexo);
+	printf("la carrera del alumno es : %s\n",a1.carrera);
+	
+	
+	return 0;
+	
+}
