@@ -1,0 +1,40 @@
+#include <iostream>
+#include <stdio.h>
+
+struct articulo {
+	int codigo;
+	char nombre;
+	float precio;
+	
+}a[20];
+int total_de_articulos =0;
+
+int consultar_articulos(){
+	
+	int opc;
+	
+	printf("MENU DE ARTICULOS \n\n");
+	printf("1.-Agragar \n");
+	printf("2.-Consulta \n\n");
+	printf("3.-Salir \n\n");
+	scanf("%d",&opc);
+	
+	switch (opc) {
+case 1:
+		break;
+case 2:
+	break;
+case 3:
+	break;
+	}
+	return (0);
+}
+
+int main (){
+	
+	printf("MENU PRINCIPAL \n\n");
+	printf("1.-Articulos \n");
+	printf("2.-Realizar Compra \n\n");
+	printf("3.-Salir \n\n");
+	
+}
